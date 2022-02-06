@@ -1,0 +1,61 @@
+@media screen and (min-width: 800px) {
+    body {
+        font-family: Open Sans;
+        background-image: url(Imges/Umbrella_Kimono_Night_Lantern_553847_1920x1080.jpg);
+    }
+    h1 {
+        color: aliceblue;
+    }
+    #quiz {
+        text-indent: 10px;
+        display: none;
+        color: aliceblue;
+    }
+    .button {
+        border-radius: 5px;
+        width: 100px;
+        padding-left: 5px;
+        padding-right: 5px;
+        position: relative;
+        float: right;
+        background-color: #fd0101;
+        color: rgb(253, 4, 4);
+        margin: 0 2px 0 2px;
+    }
+    .button.active {
+        background-color: #F8F8FF;
+        color: #ee0d0d;
+    }
+    button {
+        position: relative;
+        float: right;
+    }
+    .button a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+    #container {
+        position: absolute;
+        margin-left: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 614px;
+        height: 600px;
+        background: linear-gradient(206.69deg, #950707 0%, #FF7A00 100%);
+    }
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        color: aliceblue;
+    }
+    #prev {
+        display: none;
+    }
+    #start {
+        display: none;
+        width: 90px;
+    }
+}
